@@ -59,21 +59,24 @@ let techTree = {
     }
 };
 
-function name(params) {
-    console.log(`Din interior param primit este: ${params}`);
-}
 const UNAVAILABLE = "unavailable";
 
-// getCivBarracksHighestAvailableUnits
-
-function getHighestRequestedLineAvailableUnit(civName, unitLine) {
-    let response = UNAVAILABLE;
-
-    if (!Object.keys(techTree.barracks).includes(unitLine)) {
-        return "Unit line not found in object";
+function getHighestRequestedLineAvailableUnit(civName, unitLine, buildingName) {
+    if (buildingName === null || buildingName === undefined) {
+        return "Building name not specified!";
+    }
+    if (unitLine === null || unitLine === undefined) {
+        return "Building name not specified!";
     }
 
-    response = getHighestUnitLineUnit(techTree.barracks[unitLine], civName);
+    if (!Object.keys(techTree).includes(buildingName)) {
+        return "Building not found in techtree!";
+    }
+    if (!Object.keys(techTree[buildingName]).includes(unitLine)) {
+        return "Unit line not found in techtree!";
+    }
+
+    const response = getHighestUnitLineUnit(techTree[buildingName][unitLine], civName);
 
     return response;
 }
@@ -102,4 +105,17 @@ function getHighestUnitLineUnit(unitLineObject, civName) {
         }
     });
     return highestUnit;
+}
+
+function getCivBuildingHighestAvailableUnits(civName, buildingName) {
+    let response = {};
+    // foreach unit line from building get the highest result
+    Object.keys(techTree[buildingName]).forEach(unitLine => {
+        response[unitLine] = getHighestRequestedLineAvailableUnit(civName, unitLine, buildingName);
+    })
+
+    let resp = {};
+    resp[buildingName] = response;
+
+    return resp;
 }
