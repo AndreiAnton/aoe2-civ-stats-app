@@ -3,4 +3,4 @@ An app that shows statistics about every civilisation from the famous RTS game, 
 
 
 ## Functions
-### Added a function that returns the highest level available unit from a requested unit line
+Added a function that returns the highest level available unit from a requested unit line
