@@ -83,7 +83,7 @@ let techTree = {
                 unitLevel: 1,
                 civs: ["Turks"]
             },
-            secondTier: {
+            highestTier: {
                 unitName: "Elite Skirmisher",
                 unitLevel: 2,
                 civs: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Teutons", "Vikings", "Aztecs", "Huns", "Koreans", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Malians", "Portuguese", "Burmese", "Khmer", "Malay", "Bulgarians", "Cumans", "Lithuanians", "Tatars"]
@@ -114,6 +114,88 @@ let techTree = {
                 unitLevel: 1,
                 civs: ["Byzantines", "Franks", "Goths", "Japanese", "Persians", "Saracens", "Teutons", "Turks", "Koreans", "Spanish", "Indians", "Italians", "Berbers", "Malians", "Portuguese", "Khmer", "Lithuanians", "Tatars"]
             },
+        }
+    },
+    stable: {
+        lightCavalryLine: {
+            unavailable: ["Aztecs", "Mayans", "Incas"],
+            lowestTier: {
+                unitName: "Scout Cavalry",
+                unitLevel: 1,
+                civs: ["Teutons"]
+            },
+            secondTier: {
+                unitName: "Light Cavalry",
+                unitLevel: 2,
+                civs: ["Britons", "Chinese", "Franks", "Japanese", "Vikings", "Malians", "Portuguese", "Khmer", "Malay", "Vietnamese"]
+            },
+            highestTier: {
+                unitName: "Hussar",
+                unitLevel: 3,
+                civs: ["Byzantines", "Celts", "Goths", "Mongols", "Persians", "Saracens", "Turks", "Huns", "Koreans", "Spanish", "Indians", "Italians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Burmese", "Bulgarians", "Cumans", "Lithuanians", "Tatars"]
+            }
+        },
+        heavyCavalryLine: {
+            unavailable: ["Aztecs", "Mayans", "Incas", "Indians"],
+            lowestTier: {
+                unitName: "Knight",
+                unitLevel: 1,
+                civs: ["Saracens"]
+            },
+            secondTier: {
+                unitName: "Cavalier",
+                unitLevel: 2,
+                civs: ["Britons", "Chinese", "Goths", "Japanese", "Mongols", "Turks", "Vikings", "Koreans", "Italians", "Slavs", "Berbers", "Ethiopians", "Malians", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Bulgarians", "Tatars"]
+            },
+            highestTier: {
+                unitName: "Paladin",
+                unitLevel: 3,
+                civs: ["Byzantines", "Celts", "Franks", "Persians", "Teutons", "Huns", "Spanish", "Magyars", "Cumans", "Lithuanians"]
+            }
+        },
+        camelRiderLine: {
+            unavailable: ["Britons", "Celts", "Franks", "Goths", "Japanese", "Teutons", "Vikings", "Aztecs", "Huns", "Koreans", "Mayans", "Spanish", "Incas", "Italians", "Magyars", "Slavs", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Bulgarians", "Lithuanians"],
+            lowestTier: {
+                unitName: "Camel Rider",
+                unitLevel: 1,
+                civs: ["Cumans"]
+            },
+            highestTier: {
+                unitName: "Heavy Camel Rider",
+                unitLevel: 2,
+                civs: ["Byzantines", "Chinese", "Mongols", "Persians", "Saracens", "Turks", "Berbers", "Ethiopians", "Malians", "Tatars"]
+            },
+            specialTier: {
+                unitName: "Imperial Camel",
+                unitLevel: 3,
+                civs: ["Indians"]
+            },
+        },
+        battleElephantLine: {
+            unavailable: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Teutons", "Turks", "Vikings", "Aztecs", "Huns", "Koreans", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Malians", "Portuguese", "Bulgarians", "Cumans", "Lithuanians", "Tatars"],
+            lowestTier: {
+                unitName: "Battle Elephant",
+                unitLevel: 1,
+                civs: []
+            },
+            highestTier: {
+                unitName: "Elite Battle Elephant",
+                unitLevel: 2,
+                civs: ["Burmese", "Khmer", "Malay", "Vietnamese"]
+            }
+        },
+        steppeLancerLine: {
+            unavailable: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Persians", "Saracens", "Teutons", "Turks", "Vikings", "Aztecs", "Huns", "Koreans", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Malians", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Bulgarians", "Lithuanians"],
+            lowestTier: {
+                unitName: "Steppe Lancer",
+                unitLevel: 1,
+                civs: []
+            },
+            highestTier: {
+                unitName: "Elite Steppe Lancer",
+                unitLevel: 2,
+                civs: ["Mongols", "Cumans", "Tatars"]
+            }
         }
     }
 };

@@ -75,6 +75,8 @@ function renderBuildingsNames(buildingName) {
             return "Barracks"
         case "archeryRange":
             return "Archery Range"
+        case "stable":
+            return "Stable"
     
         default:
             return "Building Name"

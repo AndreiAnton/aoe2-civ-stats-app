@@ -6,7 +6,7 @@
 // const REQUESTED_UNIT_LINE = "eagleLine";
 // const REQUESTED_UNIT_LINE = "infantryLine";
 // const REQUESTED_BUILDING_NAME = "barracks";
-const BUILDING_NAMES = ["barracks", "archeryRange"];
+const BUILDING_NAMES = ["barracks", "archeryRange", "stable"];
 
 // let civHighestBarrackInfantryUnit = getHighestRequestedLineAvailableUnit(REQUESTED_CIV, REQUESTED_UNIT_LINE, REQUESTED_BUILDING_NAME);
 // console.log(`${REQUESTED_CIV}: ${civHighestBarrackInfantryUnit}`);
@@ -17,7 +17,7 @@ const BUILDING_NAMES = ["barracks", "archeryRange"];
 document.getElementById('civ-attributes').innerHTML = 'Britons Attributes';
 document.getElementById('civ-attributes').innerHTML = testVar;
 
-const civsArray = ["Aztecs", "Britons", "Persians", "Mayans"];
+const civsArray = ["Aztecs", "Britons", "Persians", "Tatars", "Vietnamese", "Indians"];
 
 // trebuie sa fac map peste civsArray
 const fullCivArray = civsArray.map(civName => buildCivsInfoObject(civName, BUILDING_NAMES));
