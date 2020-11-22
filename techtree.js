@@ -403,3 +403,78 @@ let techTree = {
         }
     }
 };
+
+let unitsCoeficients = [
+    {
+        unitName: "Long Swordsman",
+        value: 40
+    },
+    {
+        unitName: "Two-Handed Swordsman",
+        value: 80
+    },
+    {
+        unitName: "Champion",
+        value: 110
+    },
+    {
+        unitName: "Spearman",
+        value: 30
+    },
+    {
+        unitName: "Pikeman",
+        value: 52
+    },
+    {
+        unitName: "Halberdier",
+        value: 77
+    },
+    {
+        unitName: "Eagle Scout",
+        value: 1
+    },
+    {
+        unitName: "Eagle Warrior",
+        value: 1
+    },
+    {
+        unitName: "Elite Eagle Warrior",
+        value: 1
+    },
+    {
+        unitName: "Archer",
+        value: 50
+    },
+    {
+        unitName: "Crossbowman",
+        value: 100
+    },
+    {
+        unitName: "Arbalester",
+        value: 130
+    },
+    {
+        unitName: "Skirmisher",
+        value: 1
+    },
+    {
+        unitName: "Elite Skirmisher",
+        value: 1
+    },
+    {
+        unitName: "Imperial Skirmisher",
+        value: 1
+    },
+    {
+        unitName: "Cavalry Archer",
+        value: 1
+    },
+    {
+        unitName: "Heavy Cavalry Archer",
+        value: 1
+    },
+    {
+        unitName: "Hand Cannoneer",
+        value: 1
+    }
+]

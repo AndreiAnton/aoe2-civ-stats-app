@@ -56,14 +56,39 @@ function getCivBuildingHighestAvailableUnits(civName, buildingName) {
     return response;
 }
 
+function getUnitBaseCoeficient(unitName) {
+    if (unitName === UNAVAILABLE) {
+        return 0;
+    }
+    const filteredCoeficients = unitsCoeficients.filter(function (unitObj) {
+        return unitObj.unitName === unitName;
+    });
+
+    return filteredCoeficients[0].value;
+}
+
+function getCivIndividualCoeficients(civTechtree) {
+    let response = {};
+    Object.keys(civTechtree).forEach(unitLineName => {
+        response[unitLineName] = getUnitBaseCoeficient(civTechtree[unitLineName]);
+    })
+
+    return response;
+}
+
 function buildCivsInfoObject(civName, buildingNames) {
     let response = {
         name: civName,
-        techtree: {}
+        techtree: {},
+        coeficients: {}
     };
 
     buildingNames.forEach(buildingName => {
         response.techtree[buildingName] = getCivBuildingHighestAvailableUnits(civName, buildingName)
+    })
+
+    Object.keys(response.techtree).forEach(buildingName => {
+        response.coeficients[buildingName] = getCivIndividualCoeficients(response.techtree[buildingName])
     })
 
     return response;

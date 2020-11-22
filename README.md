@@ -3,6 +3,7 @@ An app that shows statistics about every civilisation from the famous RTS game, 
 
 
 ## Functions
+11/22/2020
 16:00
 Added a function that returns the highest level available unit from a requested unit line
 
@@ -19,3 +20,7 @@ Added Stable entry in techtree json
 
 23:00
 Added Siege Workshop, Dock, Defensive Structures and Monastery in entries in techtree json
+
+11/23/2020
+00:00
+Added base coeficients for some units
