@@ -6,7 +6,7 @@
 // const REQUESTED_UNIT_LINE = "eagleLine";
 // const REQUESTED_UNIT_LINE = "infantryLine";
 // const REQUESTED_BUILDING_NAME = "barracks";
-const BUILDING_NAMES = ["barracks", "archeryRange", "stable"];
+const BUILDING_NAMES = ["barracks", "archeryRange", "stable", "siegeWorkshop", "dock", "defensiveStructures", "monastery"];
 
 // let civHighestBarrackInfantryUnit = getHighestRequestedLineAvailableUnit(REQUESTED_CIV, REQUESTED_UNIT_LINE, REQUESTED_BUILDING_NAME);
 // console.log(`${REQUESTED_CIV}: ${civHighestBarrackInfantryUnit}`);

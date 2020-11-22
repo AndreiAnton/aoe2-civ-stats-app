@@ -13,3 +13,9 @@ Added a function that returns the highest available units of a requested civ fro
 Added functions to build the frontend object
 Added Archery Range entry in techtree json
 Added functions to render frontend elements
+
+19:55
+Added Stable entry in techtree json
+
+23:00
+Added Siege Workshop, Dock, Defensive Structures and Monastery in entries in techtree json

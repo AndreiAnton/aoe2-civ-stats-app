@@ -77,6 +77,14 @@ function renderBuildingsNames(buildingName) {
             return "Archery Range"
         case "stable":
             return "Stable"
+        case "siegeWorkshop":
+            return "Siege Workshop"
+        case "dock":
+            return "Dock"
+        case "defensiveStructures":
+            return "Defensive Structures"
+        case "monastery":
+            return "Monastery"
     
         default:
             return "Building Name"

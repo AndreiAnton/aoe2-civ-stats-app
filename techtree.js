@@ -197,5 +197,209 @@ let techTree = {
                 civs: ["Mongols", "Cumans", "Tatars"]
             }
         }
+    },
+    siegeWorkshop: {
+        ramLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Battering Ram",
+                unitLevel: 1,
+                civs: []
+            },
+            secondTier: {
+                unitName: "Capped Ram",
+                unitLevel: 2,
+                civs: ["Britons", "Franks", "Goths", "Japanese", "Teutons", "Koreans", "Indians", "Italians", "Magyars", "Berbers", "Malians", "Portuguese", "Burmese", "Malay", "Vietnamese", "Lithuanians"]
+            },
+            highestTier: {
+                unitName: "Siege Ram",
+                unitLevel: 3,
+                civs: ["Byzantines", "Celts", "Chinese", "Mongols", "Persians", "Saracens", "Turks", "Vikings", "Aztecs", "Huns", "Mayans", "Spanish", "Incas", "Slavs", "Ethiopians", "Khmer", "Bulgarians", "Cumans", "Tatars"]
+            }
+        },
+        catapultLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Mangonel",
+                unitLevel: 1,
+                civs: ["Turks", "Huns"]
+            },
+            secondTier: {
+                unitName: "Onager",
+                unitLevel: 2,
+                civs: ["Britons", "Byzantines", "Chinese", "Franks", "Goths", "Japanese", "Persians", "Vikings", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Magyars", "Berbers", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Lithuanians", "Tatars"]
+            },
+            highestTier: {
+                unitName: "Siege Onager",
+                unitLevel: 3,
+                civs: ["Celts", "Mongols", "Saracens", "Teutons", "Aztecs", "Koreans", "Slavs", "Ethiopians", "Malians", "Bulgarians", "Cumans"]
+            }
+        },
+        scorpionLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Scorpion",
+                unitLevel: 1,
+                civs: ["Byzantines", "Saracens", "Aztecs", "Huns", "Koreans", "Spanish", "Indians", "Italians", "Malians", "Portuguese", "Vietnamese", "Cumans", "Lithuanians"]
+            },
+            highestTier: {
+                unitName: "Heavy Scorpion",
+                unitLevel: 2,
+                civs: ["Britons", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Teutons", "Turks", "Vikings", "Mayans", "Incas", "Magyars", "Slavs", "Berbers", "Ethiopians", "Burmese", "Khmer", "Malay", "Bulgarians", "Tatars"]
+            }
+        },
+        cannonLine: {
+            unavailable: ["Britons", "Celts", "Chinese", "Japanese", "Mongols", "Vikings", "Aztecs", "Huns", "Mayans", "Incas", "Magyars", "Slavs", "Khmer", "Bulgarians", "Cumans", "Tatars"],
+            highestTier: {
+                unitName: "Bombard Cannon",
+                unitLevel: 1,
+                civs: ["Byzantines", "Franks", "Goths", "Persians", "Saracens", "Teutons", "Turks", "Koreans", "Spanish", "Indians", "Italians", "Berbers", "Ethiopians", "Malians", "Portuguese", "Burmese", "Malay", "Vietnamese", "Lithuanians"]
+            }
+        }
+    },
+    dock: {
+        galleyLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Galley",
+                unitLevel: 1,
+                civs: []
+            },
+            secondTier: {
+                unitName: "War Galley",
+                unitLevel: 2,
+                civs: ["Aztecs", "Malians"]
+            },
+            highestTier: {
+                unitName: "Galleon",
+                unitLevel: 3,
+                civs: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Teutons", "Turks", "Vikings", "Huns", "Koreans", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Bulgarians", "Cumans", "Lithuanians", "Tatars"]
+            }
+        },
+        fireLine: {
+            unavailable: ["Vikings"],
+            lowestTier: {
+                unitName: "Fire Galley",
+                unitLevel: 1,
+                civs: []
+            },
+            secondTier: {
+                unitName: "Fire Ship",
+                unitLevel: 2,
+                civs: ["Celts", "Chinese", "Saracens", "Turks", "Huns", "Indians", "Ethiopians", "Portuguese", "Burmese", "Vietnamese", "Bulgarians"]
+            },
+            highestTier: {
+                unitName: "Fast Fire Ship",
+                unitLevel: 3,
+                civs: ["Britons", "Byzantines", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Teutons", "Aztecs", "Koreans", "Mayans", "Spanish", "Incas", "Italians", "Magyars", "Slavs", "Berbers", "Malians", "Khmer", "Malay", "Cumans", "Lithuanians", "Tatars"]
+            }
+        },
+        demoLine: {
+            unavailable: ["Koreans"],
+            lowestTier: {
+                unitName: "Demolition Raft",
+                unitLevel: 1,
+                civs: []
+            },
+            secondTier: {
+                unitName: "Demolition Ship",
+                unitLevel: 2,
+                civs: ["Japanese", "Aztecs", "Incas", "Italians", "Magyars", "Slavs", "Ethiopians", "Burmese", "Khmer", "Malay", "Bulgarians", "Cumans", "Lithuanians", "Tatars"]
+            },
+            highestTier: {
+                unitName: "Heavy Demolition Ship",
+                unitLevel: 3,
+                civs: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Mongols", "Persians", "Saracens", "Teutons", "Turks", "Vikings", "Huns", "Mayans", "Spanish", "Indians", "Berbers", "Malians", "Portuguese", "Vietnamese"]
+            }
+        },
+        cannonLine: {
+            unavailable: ["Aztecs", "Huns", "Mayans", "Incas", "Cumans"],
+            lowestTier: {
+                unitName: "Cannon Galleon",
+                unitLevel: 1,
+                civs: ["Britons", "Celts", "Chinese", "Franks", "Goths", "Mongols", "Teutons", "Koreans", "Magyars", "Slavs", "Ethiopians", "Malians", "Bulgarians"]
+            },
+            highestTier: {
+                unitName: "Elite Cannon Galleon",
+                unitLevel: 2,
+                civs: ["Byzantines", "Japanese", "Persians", "Saracens", "Turks", "Vikings", "Spanish", "Indians", "Italians", "Berbers", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Lithuanians", "Tatars"]
+            }
+        }
+    },
+    defensiveStructures: {
+        towerLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Watch Tower",
+                unitLevel: 1,
+                civs: ["Goths", "Huns", "Cumans"]
+            },
+            secondTier: {
+                unitName: "Guard Tower",
+                unitLevel: 2,
+                civs: ["Franks", "Mongols", "Persians", "Vikings", "Aztecs", "Indians", "Magyars", "Slavs", "Berbers", "Tatars"]
+            },
+            highestTier: {
+                unitName: "Keep",
+                unitLevel: 3,
+                civs: ["Britons", "Byzantines", "Celts", "Chinese", "Japanese", "Saracens", "Teutons", "Turks", "Koreans", "Mayans", "Spanish", "Incas", "Italians", "Ethiopians", "Malians", "Portuguese", "Burmese", "Khmer", "Malay", "Vietnamese", "Bulgarians", "Lithuanians"]
+            }
+        },
+        stoneWallLine: {
+            unavailable: ["Goths", "Cumans"],
+            lowestTier: {
+                unitName: "Stone Wall",
+                unitLevel: 1,
+                civs: ["Persians", "Huns", "Magyars", "Malay", "Bulgarians"]
+            },
+            highestTier: {
+                unitName: "Fortified Wall",
+                unitLevel: 2,
+                civs: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Japanese", "Mongols", "Saracens", "Teutons", "Turks", "Vikings", "Aztecs", "Koreans", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Slavs", "Berbers", "Ethiopians", "Malians", "Portuguese", "Burmese", "Khmer", "Vietnamese", "Lithuanians", "Tatars"]
+            }
+        },
+        cannonLine: {
+            unavailable: ["Britons", "Celts", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Vikings", "Aztecs", "Huns", "Mayans", "Incas", "Indians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Malians", "Burmese", "Khmer", "Bulgarians", "Cumans"],
+            highestTier: {
+                unitName: "Bombard Tower",
+                unitLevel: 1,
+                civs: ["Byzantines", "Chinese", "Teutons", "Turks", "Koreans", "Spanish", "Italians", "Portuguese", "Malay", "Vietnamese", "Lithuanians", "Tatars"]
+            }
+        }
+    },
+    monastery: {
+        monkLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Monk lv 1",
+                unitLevel: 1,
+                civs: ["Britons", "Celts", "Chinese", "Goths", "Persians", "Koreans", "Vietnamese", "Tatars"],
+                description: "Mediocre Monastery"
+            },
+            fourthTier: {
+                unitName: "Monk lv 2",
+                unitLevel: 2,
+                civs: ["Franks", "Mongols", "Vikings", "Huns", "Mayans", "Magyars", "Ethiopians", "Cumans"],
+                description: "Can research Heresy"
+            },
+            thirdTier: {
+                unitName: "Monk lv 3",
+                unitLevel: 3,
+                civs: ["Japanese", "Indians", "Italians", "Slavs", "Burmese", "Khmer", "Bulgarians"],
+                description: "Can research Redemption"
+            },
+            secondTier: {
+                unitName: "Monk lv 4",
+                unitLevel: 4,
+                civs: ["Byzantines", "Turks", "Incas", "Berbers", "Malians", "Portuguese", "Malay"],
+                description: "Can research Heresy and Redemption"
+            },
+            highestTier: {
+                unitName: "Monk lv 5",
+                unitLevel: 5,
+                civs: ["Saracens", "Teutons", "Aztecs", "Spanish", "Lithuanians"],
+                description: "Monastery Full Tech Tree"
+            },
+        }
     }
 };
