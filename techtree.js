@@ -56,66 +56,64 @@ let techTree = {
                 civs: ["Aztecs", "Mayans", "Incas"]
             }
         }
+    },
+    archeryRange: {
+        footArcherLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Archer",
+                unitLevel: 1,
+                civs: ["Spanish", "Bulgarians"]
+            },
+            secondTier: {
+                unitName: "Crossbowman",
+                unitLevel: 2,
+                civs: ["Celts", "Franks", "Goths", "Persians", "Teutons", "Turks", "Huns", "Indians", "Slavs", "Berbers", "Burmese", "Cumans", "Lithuanians", "Tatars"]
+            },
+            highestTier: {
+                unitName: "Arbalester",
+                unitLevel: 3,
+                civs: ["Britons", "Byzantines", "Chinese", "Japanese", "Mongols", "Saracens", "Vikings", "Aztecs", "Koreans", "Mayans", "Incas", "Italians", "Magyars", "Ethiopians", "Malians", "Portuguese", "Khmer", "Malay", "Vietnamese"]
+            }
+        },
+        skirmisherLine: {
+            unavailable: [],
+            lowestTier: {
+                unitName: "Skirmisher",
+                unitLevel: 1,
+                civs: ["Turks"]
+            },
+            secondTier: {
+                unitName: "Elite Skirmisher",
+                unitLevel: 2,
+                civs: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Teutons", "Vikings", "Aztecs", "Huns", "Koreans", "Mayans", "Spanish", "Incas", "Indians", "Italians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Malians", "Portuguese", "Burmese", "Khmer", "Malay", "Bulgarians", "Cumans", "Lithuanians", "Tatars"]
+            },
+            specialTier: {
+                unitName: "Imperial Skirmisher",
+                unitLevel: 3,
+                civs: ["Vietnamese"]
+            },
+        },
+        horseArcherLine: {
+            unavailable: ["Aztecs", "Mayans", "Incas"],
+            lowestTier: {
+                unitName: "Cavalry Archer",
+                unitLevel: 1,
+                civs: ["Teutons", "Vikings", "Italians", "Portuguese", "Malay"]
+            },
+            highestTier: {
+                unitName: "Heavy Cavalry Archer",
+                unitLevel: 2,
+                civs: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Turks", "Huns", "Koreans", "Spanish", "Indians", "Magyars", "Slavs", "Berbers", "Ethiopians", "Malians", "Burmese", "Khmer", "Vietnamese", "Bulgarians", "Cumans", "Lithuanians", "Tatars"]
+            }
+        },
+        gunLine: {
+            unavailable: ["Britons", "Celts", "Chinese", "Mongols", "Vikings", "Aztecs", "Huns", "Mayans", "Incas", "Magyars", "Slavs", "Ethiopians", "Burmese", "Malay", "Vietnamese", "Bulgarians", "Cumans"],
+            highestTier: {
+                unitName: "Hand Cannoneer",
+                unitLevel: 1,
+                civs: ["Byzantines", "Franks", "Goths", "Japanese", "Persians", "Saracens", "Teutons", "Turks", "Koreans", "Spanish", "Indians", "Italians", "Berbers", "Malians", "Portuguese", "Khmer", "Lithuanians", "Tatars"]
+            },
+        }
     }
 };
-
-const UNAVAILABLE = "unavailable";
-
-function getHighestRequestedLineAvailableUnit(civName, unitLine, buildingName) {
-    if (buildingName === null || buildingName === undefined) {
-        return "Building name not specified!";
-    }
-    if (unitLine === null || unitLine === undefined) {
-        return "Building name not specified!";
-    }
-
-    if (!Object.keys(techTree).includes(buildingName)) {
-        return "Building not found in techtree!";
-    }
-    if (!Object.keys(techTree[buildingName]).includes(unitLine)) {
-        return "Unit line not found in techtree!";
-    }
-
-    const response = getHighestUnitLineUnit(techTree[buildingName][unitLine], civName);
-
-    return response;
-}
-
-function checkIfCivNameInArray(array, civName) {
-    if (array.length > 0) {
-        if(array.includes(civName)) {
-            return true;
-        }
-    }
-}
-
-function getHighestUnitLineUnit(unitLineObject, civName) {
-    let highestUnit = UNAVAILABLE;
-    Object.keys(unitLineObject).forEach(key => {
-        if (key === UNAVAILABLE) {
-            // array case
-            if (checkIfCivNameInArray(unitLineObject[key], civName)) {
-                highestUnit = UNAVAILABLE
-            }
-        } else {
-            // object case
-            if (checkIfCivNameInArray(unitLineObject[key].civs, civName)) {
-                highestUnit = unitLineObject[key].unitName
-            }
-        }
-    });
-    return highestUnit;
-}
-
-function getCivBuildingHighestAvailableUnits(civName, buildingName) {
-    let response = {};
-    // foreach unit line from building get the highest result
-    Object.keys(techTree[buildingName]).forEach(unitLine => {
-        response[unitLine] = getHighestRequestedLineAvailableUnit(civName, unitLine, buildingName);
-    })
-
-    let resp = {};
-    resp[buildingName] = response;
-
-    return resp;
-}
