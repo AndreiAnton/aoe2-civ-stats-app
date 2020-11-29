@@ -14,6 +14,8 @@ const BUILDING_NAMES = [
     // "dock",
     // "defensiveStructures",
     // "monastery"
+    "blacksmith",
+    "university"
 ];
 
 // let civHighestBarrackInfantryUnit = getHighestRequestedLineAvailableUnit(REQUESTED_CIV, REQUESTED_UNIT_LINE, REQUESTED_BUILDING_NAME);
@@ -25,7 +27,8 @@ const BUILDING_NAMES = [
 document.getElementById('civ-attributes').innerHTML = 'Britons Attributes';
 document.getElementById('civ-attributes').innerHTML = testVar;
 
-const civsArray = ["Aztecs", "Britons", "Persians", "Tatars", "Vietnamese", "Indians"];
+// const civsArray = ["Aztecs", "Britons", "Persians", "Tatars", "Vietnamese", "Indians"];
+const civsArray = ["Britons", "Mayans", "Italians"];
 
 // trebuie sa fac map peste civsArray
 const fullCivArray = civsArray.map(civName => buildCivsInfoObject(civName, BUILDING_NAMES));
@@ -33,7 +36,7 @@ console.log(fullCivArray);
 
 let civilisationsHtmlResponse = '';
 fullCivArray.forEach(civ => {
-    civilisationsHtmlResponse += '<div id="civ-name"><h2>' + civ.name + '</h2><div><h3>Highest Available Units:</h3>' + renderBuildingsUnits(civ.techtree) + '</div></div>';
+    civilisationsHtmlResponse += '<div id="civ-name"><h2>' + civ.name + '</h2><div><h3>Highest Available Units:</h3>' + renderBuildingsUnits(civ.unittree) + '</div></div>';
 })
 
 document.getElementById('civs-container').innerHTML = civilisationsHtmlResponse;

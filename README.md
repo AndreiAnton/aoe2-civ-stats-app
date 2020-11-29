@@ -24,3 +24,40 @@ Added Siege Workshop, Dock, Defensive Structures and Monastery in entries in tec
 11/23/2020
 00:00
 Added base coeficients for some units
+
+11/29/2020
+18:50
+-- In techtree.js --
+Renamed unitName to entityName
+Renamed unitsCoeficients to unitsArray
+added unitClass to each unit in unitsArray
+added upgradesTechTree which holds each common technology grouped by building and upgradeLine, it also shows what civs can access them
+added classUpgradesObject with maps each unitClass to coresponding upgradeLines
+added upgradesArray which holds each common technology (name, value)
+added uniqueFeaturesTree which is grouped by civ name and holds the uniqueUpgrades the civBonuses and civTeamBonuses
+
+-- In helpers.js --
+renamed unitLine to entityLine
+getHighestRequestedLineAvailableUnit() now returns also the highest available tech (useful for blacksmith)
+getCivBuildingHighestAvailableTechnologies(civName, buildingName) return the highest available tech from the given building for the given civ
+getCivUniqueTechnologies(civName) returns the uniqueUpgradesTree fro the given civ
+getCivBonuses(civName) returns the civBonuses for the given civ
+getCivTeamBonuses(civName) return the civTeamBonuses for the given civ
+getEntityFromArray(array, entityName) return the object by given name from the given array
+getCivCommonUpgradesCoeficients(unitName, civtechnologiestree, civUniqueUpgradesTree, civBonusesTree, civTeamBonusesTree) return the final coeficient for every given unit
+    -first it gets the given unit class
+    -then gets the class upgrades
+    -then gets the available common upgrades
+        it also gets the total value for the civ unique upgrades
+        also the total value for the civ bonuses
+        also the total value for the civ team bonuses
+    -then adds all the bonuses like this:
+        CommonUpgrades + UniqueUpgrades + CivBonuses + TeamBonuses
+getCivIndividualCoeficients(civBuildingUnitTechtree, civTechnologiesTree, civUniqueUpgradesTree, civBonusesTree, civTeamBonusesTree) returns the coeficient for each unit from each building
+    UnitBaseCoeficient + CommonUpgrades + UniqueUpgrades + CivBonuses + TeamBonuses
+added new props in buildCivsInfoObject like 
+        unittree: {},
+        technologiestree: {},
+        uniqueupgradestree: {},
+        civbonusestree: {},
+        civteambonusestree: {},
