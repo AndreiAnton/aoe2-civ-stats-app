@@ -12,14 +12,14 @@ Added a function that returns the highest available units of a requested civ fro
 
 19:30
 Added functions to build the frontend object
-Added Archery Range entry in techtree json
+Added Archery Range entry in techtrees/building-availabilities-tree.js json
 Added functions to render frontend elements
 
 19:55
-Added Stable entry in techtree json
+Added Stable entry in techtrees/building-availabilities-tree.js json
 
 23:00
-Added Siege Workshop, Dock, Defensive Structures and Monastery in entries in techtree json
+Added Siege Workshop, Dock, Defensive Structures and Monastery in entries in techtrees/building-availabilities-tree.js json
 
 11/23/2020
 00:00
@@ -27,7 +27,7 @@ Added base coeficients for some units
 
 11/29/2020
 18:50
--- In techtree.js --
+-- In techtree.js renamed to diferent sub names --
 Renamed unitName to entityName
 Renamed unitsCoeficients to unitsArray
 added unitClass to each unit in unitsArray
@@ -100,3 +100,9 @@ added correspondig classes to bombardTowerLine in classUpgradesObject
 added correspondig classes to monkLine in classUpgradesObject
 added more upgrades in upgradesArray
 modified some classes in uniqueFeaturesTree
+
+19:00
+-- In script.js --
+added UNIT_LINE_NAMES which holds maps the unitLineNameSlug to a more user friendly version
+added function to render the charts
+added chart.js source code and stylesheet in chartjs folder
