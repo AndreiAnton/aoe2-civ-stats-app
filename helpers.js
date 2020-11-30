@@ -129,7 +129,6 @@ function getCivCommonUpgradesCoeficients(unitName, civtechnologiestree, civUniqu
     // get unit class
     const filteredUnit = getEntityFromArray(unitsArray, unitName);
     const unitClass = filteredUnit.unitClass;
-    console.log(unitName)
 
     // get class upgrades, primeste unitClass si returneaza tipurile de upgradeuri care se aplica acelei clase
     // ex: arbalests => [rangedAttack, range, rateOfFire, accuracy, archerArmor, conversionDefense, creationSpeed]
@@ -157,11 +156,12 @@ function getCivCommonUpgradesCoeficients(unitName, civtechnologiestree, civUniqu
         // get civ bonuses, primeste upgradeLine, civBonuses returneaza valoare per upgradeLine
         civBonusesTotalValue += getCivUniqueUpgradesCoeficients(upgradeLineName, civBonusesTree);
         // get civ team bonuses (pt ), primeste upgradeLine, civTeamBonusesTree returneaza valoare per upgradeLine
-        civBonusesTotalValue += getCivUniqueUpgradesCoeficients(upgradeLineName, civTeamBonusesTree);
+        civTeamBonusesTotalValue += getCivUniqueUpgradesCoeficients(upgradeLineName, civTeamBonusesTree);
     })
-    // console.log(classUpgrades)
-    // console.log(uniqueUpgradesTotalValue)
-    // console.log(civBonusesTotalValue)
+    console.log(classUpgrades)
+    console.log(unitName)
+    console.log(uniqueUpgradesTotalValue)
+    console.log(civBonusesTotalValue)
     console.log(civTeamBonusesTotalValue)
 
     // get the coeficient for every upgrade found, add to the sum
@@ -189,6 +189,7 @@ function getCivUniqueUpgradesCoeficients(upgradeLineName, civUniqueUpgradesTree)
     let totalValue = 0;
     Object.keys(civUniqueUpgradesTree).forEach(uniqueUpgradeLineName => {
         if (uniqueUpgradeLineName === upgradeLineName) {
+            // console.log(upgradeLineName)
             totalValue += civUniqueUpgradesTree[uniqueUpgradeLineName].value
         }
     })

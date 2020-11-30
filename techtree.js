@@ -530,7 +530,315 @@ let unitsArray = [
         unitClass: "gunLine",
         armorClass: "archerArmorClass",
         attackClass: "arrowAttackClass"
-    }
+    },
+    {
+        entityName: "Scout Cavalry",
+        value: 1,
+        unitClass: "lightCavalryLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Light Cavalry",
+        value: 1,
+        unitClass: "lightCavalryLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Hussar",
+        value: 1,
+        unitClass: "lightCavalryLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Knight",
+        value: 1,
+        unitClass: "heavyCavalryLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Cavalier",
+        value: 1,
+        unitClass: "heavyCavalryLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Paladin",
+        value: 1,
+        unitClass: "heavyCavalryLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Camel Rider",
+        value: 1,
+        unitClass: "camelRiderLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Heavy Camel Rider",
+        value: 1,
+        unitClass: "camelRiderLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Imperial Camel",
+        value: 1,
+        unitClass: "camelRiderLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Battle Elephant",
+        value: 1,
+        unitClass: "battleElephantLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Elite Battle Elephant",
+        value: 1,
+        unitClass: "battleElephantLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Steppe Lancer",
+        value: 1,
+        unitClass: "steppeLancerLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Elite Steppe Lancer",
+        value: 1,
+        unitClass: "steppeLancerLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Battering Ram",
+        value: 1,
+        unitClass: "ramLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Capped Ram",
+        value: 1,
+        unitClass: "ramLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Siege Ram",
+        value: 1,
+        unitClass: "ramLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Mangonel",
+        value: 1,
+        unitClass: "catapultLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Onager",
+        value: 1,
+        unitClass: "catapultLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Siege Onager",
+        value: 1,
+        unitClass: "catapultLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Scorpion",
+        value: 1,
+        unitClass: "scorpionLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Heavy Scorpion",
+        value: 1,
+        unitClass: "scorpionLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Bombard Cannon",
+        value: 1,
+        unitClass: "bombardCannonLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Galley",
+        value: 1,
+        unitClass: "galleyLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "War Galley",
+        value: 1,
+        unitClass: "galleyLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Galleon",
+        value: 1,
+        unitClass: "galleyLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Fire Galley",
+        value: 1,
+        unitClass: "fireLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Fire Ship",
+        value: 1,
+        unitClass: "fireLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Fast Fire Ship",
+        value: 1,
+        unitClass: "fireLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Demolition Raft",
+        value: 1,
+        unitClass: "demoLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Demolition Ship",
+        value: 1,
+        unitClass: "demoLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Heavy Demolition Ship",
+        value: 1,
+        unitClass: "demoLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Cannon Galleon",
+        value: 1,
+        unitClass: "cannonGalleonLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Elite Cannon Galleon",
+        value: 1,
+        unitClass: "cannonGalleonLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Watch Tower",
+        value: 1,
+        unitClass: "towerLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Guard Tower",
+        value: 1,
+        unitClass: "towerLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Keep",
+        value: 1,
+        unitClass: "towerLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Stone Wall",
+        value: 1,
+        unitClass: "stoneWallLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Fortified Wall",
+        value: 1,
+        unitClass: "stoneWallLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Bombard Tower",
+        value: 1,
+        unitClass: "bombardTowerLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Monk lv 1",
+        value: 1,
+        unitClass: "monkLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Monk lv 2",
+        value: 1,
+        unitClass: "monkLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Monk lv 3",
+        value: 1,
+        unitClass: "monkLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Monk lv 4",
+        value: 1,
+        unitClass: "monkLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
+    {
+        entityName: "Monk lv 5",
+        value: 1,
+        unitClass: "monkLine",
+        armorClass: "none",
+        attackClass: "none"
+    },
 ]
 
 let upgradesTechTree = {
@@ -704,7 +1012,7 @@ let upgradesTechTree = {
                 civs: ["Aztecs", "Berbers", "Burmese", "Celts", "Franks", "Incas", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malians", "Mayans", "Portuguese", "Saracens", "Slavs", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"]
             }
         },
-        rangedAttack: {
+        rangedFireAttack: {
             unavailable: [],
             highestTier: {
                 entityName: "Chemistry",
@@ -729,12 +1037,39 @@ let upgradesTechTree = {
             }
         },
         towerDamage: {
-            unavailable: [],
+            unavailable: ["Bulgarians", "Burmese", "Cumans", "Ethiopians", "Goths", "Huns", "Indians", "Khmer", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Slavs", "Tatars"],
             highestTier: {
                 entityName: "Arrowslits",
                 upgradeLevel: 1,
-                civs: []
+                civs: ["Aztecs", "Berbers", "Britons", "Byzantines", "Celts", "Chinese", "Franks", "Incas", "Italians", "Japanese", "Koreans", "Saracens", "Spanish", "Teutons", "Turks", "Vietnamese", "Vikings"]
             }
+        }
+    },
+    barracks: {
+        infantryLineCostReduction: {
+            unavailable: ["Chinese", "Cumans", "Goths", "Huns", "Khmer", "Lithuanians", "Mayans", "Mongols", "Tatars"],
+            highestTier: {
+                entityName: "Supplies",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Ethiopians", "Franks", "Incas", "Indians", "Italians", "Japanese", "Koreans", "Magyars", "Malay", "Malians", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Teutons", "Turks", "Vietnamese", "Vikings"],
+            },
+        },
+        infantrySpeed: {
+            unavailable: ["Celts", "Khmer", "Magyars", "Portuguese"],
+            highestTier: {
+                entityName: "Squires",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Koreans", "Lithuanians", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"],
+            },
+        },
+        infantryAttackAgainstBuildings: {
+            unavailable: ["Goths"],
+            highestTier: {
+                entityName: "Arson",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"],
+
+            },
         }
     },
     archeryRange: {
@@ -746,7 +1081,7 @@ let upgradesTechTree = {
                 civs: ["Berbers", "Bulgarians", "Byzantines", "Chinese", "Cumans", "Ethiopians", "Huns", "Incas", "Indians", "Italians", "Japanese", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Spanish", "Tatars", "Turks", "Vietnamese", "Vikings"]
             }
         },
-        accuracy: {
+        accuracyThumbRing: {
             unavailable: ["Aztecs", "Britons", "Burmese", "Celts", "Franks", "Goths", "Khmer", "Slavs", "Teutons"],
             highestTier: {
                 entityName: "Thumb Ring",
@@ -754,7 +1089,15 @@ let upgradesTechTree = {
                 civs: ["Berbers", "Bulgarians", "Byzantines", "Chinese", "Cumans", "Ethiopians", "Huns", "Incas", "Indians", "Italians", "Japanese", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Spanish", "Tatars", "Turks", "Vietnamese", "Vikings"]
             }
         },
-        cavalryArcherAttack: {
+        cavalryArcherLineAttackAgainstSpears: {
+            unavailable: ["Aztecs", "Berbers", "Britons", "Byzantines", "Celts", "Chinese", "Ethiopians", "Franks", "Goths", "Incas", "Italians", "Koreans", "Lithuanians", "Malay", "Malians", "Mayans", "Portuguese", "Slavs", "Spanish", "Teutons", "Vietnamese", "Vikings"],
+            highestTier: {
+                entityName: "Parthian Tactics",
+                upgradeLevel: 1,
+                civs: ["Bulgarians", "Burmese", "Cumans", "Huns", "Indians", "Japanese", "Khmer", "Magyars", "Mongols", "Persians", "Saracens", "Tatars", "Turks"]
+            }
+        },
+        uniqueCavalryArcherAttackAgainstSpears: {
             unavailable: ["Aztecs", "Berbers", "Britons", "Byzantines", "Celts", "Chinese", "Ethiopians", "Franks", "Goths", "Incas", "Italians", "Koreans", "Lithuanians", "Malay", "Malians", "Mayans", "Portuguese", "Slavs", "Spanish", "Teutons", "Vietnamese", "Vikings"],
             highestTier: {
                 entityName: "Parthian Tactics",
@@ -770,34 +1113,637 @@ let upgradesTechTree = {
                 civs: ["Bulgarians", "Burmese", "Cumans", "Huns", "Indians", "Japanese", "Khmer", "Magyars", "Mongols", "Persians", "Saracens", "Tatars", "Turks"]
             }
         }
+    },
+    stable: {
+        mountedUnitsHealth: {
+            unavailable: ["Aztecs", "Britons", "Byzantines", "Celts", "Ethiopians", "Franks", "Incas", "Koreans", "Malay", "Mayans", "Vikings"],
+            highestTier: {
+                entityName: "Bloodlines",
+                upgradeLevel: 1,
+                civs: ["Berbers", "Bulgarians", "Burmese", "Chinese", "Cumans", "Goths", "Huns", "Indians", "Italians", "Japanese", "Khmer", "Lithuanians", "Magyars", "Malians", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese"],
+
+            },
+        },
+        cavalrySpeed: {
+            unavailable: ["Aztecs", "Cumans", "Incas", "Mayans", "Teutons", "Vikings"],
+            highestTier: {
+                entityName: "Husbandry",
+                upgradeLevel: 1,
+                civs: ["Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Ethiopians", "Franks", "Goths", "Huns", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Turks", "Vietnamese"],
+
+            },
+        }
+    },
+    dock: {
+        shipArmor: {
+            unavailable: [],
+            highestTier: {
+                entityName: "Careening",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"]
+            }
+        },
+        transportShipCarryCapacity: {
+            unavailable: [],
+            highestTier: {
+                entityName: "Careening",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"]
+            }
+        },
+        shipSpeed: {
+            unavailable: ["Bulgarians", "Cumans", "Goths", "Mongols", "Teutons"],
+            highestTier: {
+                entityName: "Dry Dock",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Burmese", "Byzantines", "Celts", "Chinese", "Ethiopians", "Franks", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Turks", "Vietnamese", "Vikings"]
+            }
+        },
+        transportShipAdvancedCarryCapacity: {
+            unavailable: ["Bulgarians", "Cumans", "Goths", "Mongols", "Teutons"],
+            highestTier: {
+                entityName: "Dry Dock",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Burmese", "Byzantines", "Celts", "Chinese", "Ethiopians", "Franks", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Turks", "Vietnamese", "Vikings"]
+            }
+        },
+        allShipsCostReduction: {
+            unavailable: ["Berbers", "Bulgarians", "Burmese", "Cumans", "Franks", "Huns", "Indians", "Khmer", "Lithuanians", "Malians", "Persians", "Portuguese", "Saracens", "Slavs", "Tatars", "Teutons", "Vietnamese", "Vikings"],
+            highestTier: {
+                entityName: "Shipwright",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Britons", "Byzantines", "Celts", "Chinese", "Ethiopians", "Goths", "Incas", "Italians", "Japanese", "Koreans", "Magyars", "Malay", "Mayans", "Mongols", "Spanish", "Turks"]
+            }
+        },
+        allShipsBuildTime: {
+            unavailable: ["Berbers", "Bulgarians", "Burmese", "Cumans", "Franks", "Huns", "Indians", "Khmer", "Lithuanians", "Malians", "Persians", "Portuguese", "Saracens", "Slavs", "Tatars", "Teutons", "Vietnamese", "Vikings"],
+            highestTier: {
+                entityName: "Shipwright",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Britons", "Byzantines", "Celts", "Chinese", "Ethiopians", "Goths", "Incas", "Italians", "Japanese", "Koreans", "Magyars", "Malay", "Mayans", "Mongols", "Spanish", "Turks"]
+            }
+        }
+    },
+    monastery: {
+        buildingConversionEnabled: {
+            unavailable: ["Britons", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Koreans", "Magyars", "Mayans", "Mongols", "Persians", "Tatars", "Vietnamese", "Vikings"],
+            highestTier: {
+                entityName: "Redemption",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Bulgarians", "Burmese", "Byzantines", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Lithuanians", "Malay", "Malians", "Portuguese", "Saracens", "Slavs", "Spanish", "Teutons", "Turks"]
+            }
+        },
+        siegeConversionEnabled: {
+            unavailable: ["Britons", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Koreans", "Magyars", "Mayans", "Mongols", "Persians", "Tatars", "Vietnamese", "Vikings"],
+            highestTier: {
+                entityName: "Redemption",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Bulgarians", "Burmese", "Byzantines", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Lithuanians", "Malay", "Malians", "Portuguese", "Saracens", "Slavs", "Spanish", "Teutons", "Turks"]
+            }
+        },
+        monksCanConvertMonks: {
+            unavailable: ["Britons", "Bulgarians", "Celts", "Franks", "Goths", "Incas", "Indians", "Khmer", "Koreans", "Magyars", "Persians"],
+            highestTier: {
+                entityName: "Atonement",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Burmese", "Byzantines", "Chinese", "Cumans", "Ethiopians", "Huns", "Italians", "Japanese", "Lithuanians", "Malay", "Malians", "Mayans", "Mongols", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"]
+            }
+        },
+        garrisonedUnitsHealFaster: {
+            unavailable: ["Byzantines", "Huns", "Turks", "Vikings"],
+            highestTier: {
+                entityName: "Herbal Medicine",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Vietnamese"]
+            }
+        },
+        unitsDieInsteadOfConvert: {
+            unavailable: ["Britons", "Burmese", "Chinese", "Goths", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Persians", "Slavs", "Tatars", "Vietnamese"],
+            highestTier: {
+                entityName: "Heresy",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Bulgarians", "Byzantines", "Celts", "Cumans", "Ethiopians", "Franks", "Huns", "Incas", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Portuguese", "Saracens", "Spanish", "Teutons", "Turks", "Vikings"]
+            }
+        },
+        monkHealth: {
+            unavailable: ["Berbers", "Bulgarians", "Mongols", "Persians", "Tatars", "Vikings"],
+            highestTier: {
+                entityName: "Sanctity",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Britons", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Portuguese", "Saracens", "Slavs", "Spanish", "Teutons", "Turks", "Vietnamese"]
+            }
+        },
+        monkSpeed: {
+            unavailable: ["Incas", "Malay", "Vietnamese"],
+            highestTier: {
+                entityName: "Fervor",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vikings"]
+            }
+        },
+        conversionDefense: {
+            unavailable: ["Bulgarians", "Magyars", "Tatars"],
+            highestTier: {
+                entityName: "Faith",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Teutons", "Turks", "Vietnamese", "Vikings"]
+            }
+        },
+        monkFasterPowerRegeneration: {
+            unavailable: ["Celts", "Cumans", "Koreans", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Turks", "Vikings"],
+            highestTier: {
+                entityName: "Illumination",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Chinese", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Lithuanians", "Magyars", "Malay", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Vietnamese"]
+            }
+        },
+        monkConversionRange: {
+            unavailable: ["Berbers", "Bulgarians", "Celts", "Cumans", "Ethiopians", "Goths", "Huns", "Khmer", "Mongols", "Turks"],
+            highestTier: {
+                entityName: "Block Printing",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Britons", "Burmese", "Byzantines", "Chinese", "Franks", "Incas", "Indians", "Italians", "Japanese", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Vietnamese", "Vikings"]
+            }
+        },
+        monkLineOfSight: {
+            unavailable: ["Berbers", "Bulgarians", "Celts", "Cumans", "Ethiopians", "Goths", "Huns", "Khmer", "Mongols", "Turks"],
+            highestTier: {
+                entityName: "Block Printing",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Britons", "Burmese", "Byzantines", "Chinese", "Franks", "Incas", "Indians", "Italians", "Japanese", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Vietnamese", "Vikings"]
+            }
+        },
+        advancedGroupConversion: {
+            unavailable: ["Celts", "Cumans", "Huns", "Malay", "Mongols", "Tatars", "Vikings"],
+            highestTier: {
+                entityName: "Theocracy",
+                upgradeLevel: 1,
+                civs: ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Chinese", "Ethiopians", "Franks", "Goths", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malians", "Mayans", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Teutons", "Turks", "Vietnamese"]
+            }
+        },
     }
 }
 
 let classUpgradesObject = {
-    infantryLine: [],
-    spearLine: [],
-    eagleLine: [],
-    footArcherLine: ["rangedAttack", "range", "rateOfFire", "accuracy", "archerArmor", "conversionDefense", "creationSpeed", "footArcherAttackAgainstBuildings", "footArcherRange", "footArcherArmor", "footArcherLineCostReduction", "archeryRangeWorktime"],
-    skirmisherLine: [],
-    horseArcherLine: [],
-    gunLine: [],
-    lightCavalryLine: [],
-    heavyCavalryLine: [],
-    camelRiderLine: [],
-    battleElephantLine: [],
-    steppeLancerLine: [],
-    ramLine: [],
-    catapultLine: [],
-    scorpionLine: [],
-    bombardCannonLine: [],
-    galleyLine: [],
-    fireLine: [],
-    demoLine: [],
-    cannonGalleonLine: [],
-    towerLine: [],
-    stoneWallLine: [],
-    bombardTowerLine: [],
-    monkLine: []
+    infantryLine: [
+        "meleAttack",
+        "infantryArmor",
+        "infantrySpeed",
+        "infantryLineSpeed",
+        "infantryLineOfSight",
+        "conversionDefense",
+        "creationSpeed",
+        "infantryLineCostReduction",
+        "infantryAttackAgainstBuildings",
+        "infantryAttack",
+        "infantryAttackAgainstCavalry",
+        "barracksWorktime",
+        "infantryLineGoldCost",
+        "militaryUnitsCreationSpeed",
+        "freeInfantryLineUpgrade",
+        "infantryRateOfFire",
+        "allUnitsGoldCostReduction",
+        "elevationAttack",
+        "infantryLineHealth",
+        "freeSuppliesUpgrade",
+        "infantryCostReduction"
+    ],
+    spearLine: [
+        "meleAttack",
+        "infantryArmor",
+        "infantrySpeed",
+        "infantryLineSpeed",
+        "infantryLineOfSight",
+        "conversionDefense",
+        "creationSpeed",
+        "infantryAttackAgainstBuildings",
+        "infantryAttack",
+        "infantryAttackAgainstCavalry",
+        "spearLineArmor",
+        "barracksWorktime",
+        "militaryUnitsCreationSpeed",
+        "spearLineCostReduction",
+        "freePikemanUpgrade",
+        "infantryCostReduction",
+        "infantryRateOfFire",
+        "spearLineSpeed",
+        "elevationAttack",
+        "infantryLineHealth",
+    ],
+    eagleLine: [
+        "meleAttack",
+        "infantryArmor",
+        "infantrySpeed",
+        "infantryLineOfSight",
+        "conversionDefense",
+        "creationSpeed",
+        "infantryAttackAgainstBuildings",
+        "infantryAttack",
+        "eagleLineArmor",
+        "eagleLineHealth",
+        "militaryUnitsCreationSpeed",
+        "barracksWorktime",
+    ],
+    footArcherLine: [
+        "rangedAttack",
+        "rangedFireAttack",
+        "range",
+        "rateOfFire",
+        "accuracy",
+        "accuracyThumbRing",
+        "archerArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "footArcherAttackAgainstBuildings",
+        "footArcherRange",
+        "footArcherArmor",
+        "footArcherLineCostReduction",
+        "archeryRangeWorktime",
+        "militaryUnitsCreationSpeed",
+        "footArcherRateOfFire",
+        "allUnitsGoldCostReduction",
+        "elevationAttack",
+        "freeThumbRingUpgrade",
+        "freeChemistryUpgrade",
+        "footArcherHealth",
+        "footArcherLineWoodCostReduction",
+        "footArcherLineLineOfSight",
+        "footArcherGoldCost",
+        "footArcherLineRange",
+    ],
+    skirmisherLine: [
+        "rangedAttack",
+        "rangedFireAttack",
+        "range",
+        "accuracy",
+        "accuracyThumbRing",
+        "archerArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "skirmisherLineRange",
+        "skirmisherLineAttack",
+        "skirmisherLineMinimumRange",
+        "skirmisherLineArmor",
+        "militaryUnitsCreationSpeed",
+        "skirmisherLineCostReduction",
+        "skirmisherLineWoodCostReduction",
+        "skirmisherLineSpeed",
+        "elevationAttack",
+        "freeThumbRingUpgrade",
+        "freeChemistryUpgrade",
+        "archeryRangeWorktime",
+        "skirmisherLineHealth",
+    ],
+    horseArcherLine: [
+        "rangedAttack",
+        "rangedFireAttack",
+        "range",
+        "accuracy",
+        "accuracyThumbRing",
+        "archerArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "cavalryArcherLineAttackAgainstSpears",
+        "cavalryArcherArmor",
+        "rateOfFire",
+        "mountedUnitsHealth",
+        "cavalrySpeed",
+        "cavalryArcherLineHealth",
+        "cavalryArcherLineAttack",
+        "cavalryArcherRange",
+        "cavalryArcherLineProductionSpeed",
+        "cavalryArcherLineWoodCostReduction",
+        "cavalryArcherLineCostReduction",
+        "cavalryArcherRateOfFire",
+        "allUnitsGoldCostReduction",
+        "cavalryArcherAttackAgainstBuildings",
+        "elevationAttack",
+        "freeThumbRingUpgrade",
+        "freeParthianTacticsUpgrade",
+        "freeChemistryUpgrade",
+        "archeryRangeWorktime",
+        "cavalryArcherLineLineOfSight",
+    ],
+    gunLine: [
+        "archerArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "gunLineRange",
+        "gunLineAccuracy",
+        "gunLineCostReduction",
+        "allUnitsGoldCostReduction",
+        "gunLineRateOfFire",
+        "elevationAttack",
+        "freeChemistryUpgrade",
+        "gunLineHealth",
+        "archeryRangeWorktime",
+        "gunLineCreationSpeed",
+    ],
+    lightCavalryLine: [
+        "meleAttack",
+        "cavalryArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "mountedUnitsHealth",
+        "cavalrySpeed",
+        "lightCavalryLineAttack",
+        "cavalryAttackAgainstBuildings",
+        "cavalryRateOfFire",
+        "scoutCavalryLineArmor",
+        "stableWorktime",
+        "scoutCavalryLineProductionSpeed",
+        "stableUnitsCostReduction",
+        "lightCavalryLineHealth",
+        "lightCavalryLineArmor",
+        "freeBlacksmithMeleAttackUpgrades",
+        "lightCavalryLineCostReduction",
+        "elevationAttack",
+        "freeLightCavalryLineUpgrade",
+        "lightCavalryLineLineOfSight",
+    ],
+    heavyCavalryLine: [
+        "meleAttack",
+        "cavalryArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "mountedUnitsHealth",
+        "cavalrySpeed",
+        "heavyCavalryLineAttack",
+        "cavalryAttackAgainstBuildings",
+        "cavalryRateOfFire",
+        "stableWorktime",
+        "stableUnitsCostReduction",
+        "heavyCavalryLineHealth",
+        "freeBlacksmithMeleAttackUpgrades",
+        "allUnitsGoldCostReduction",
+        "elevationAttack",
+        "heavyCavalryLineArmor",
+        "heavyCavalryLineLineOfSight",
+        "heavyCavalryLineAttackAgainstArchers",
+    ],
+    camelRiderLine: [
+        "meleAttack",
+        "cavalryArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "mountedUnitsHealth",
+        "cavalrySpeed",
+        "camelRiderLineHealth",
+        "camelRiderLineAttack",
+        "camelRiderLineRegeneration",
+        "stableUnitsCostReduction",
+        "camelRiderLineCostReduction",
+        "camelRiderLineArmor",
+        "elevationAttack",
+        "stableWorktime",
+        "camelRiderLineAttackAgainstBuildings",
+    ],
+    battleElephantLine: [
+        "meleAttack",
+        "cavalryArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "mountedUnitsHealth",
+        "cavalrySpeed",
+        "battleElephantHealth",
+        "cavalryAttackAgainstBuildings",
+        "battleElephantAttack",
+        "battleElephantArmor",
+        "battleElephantLineSpeed",
+        "battleElephantLineCostReduction",
+        "stableWorktime",
+    ],
+    steppeLancerLine: [
+        "meleAttack",
+        "cavalryArmor",
+        "conversionDefense",
+        "creationSpeed",
+        "mountedUnitsHealth",
+        "cavalrySpeed",
+        "steppeLancerLineLineArmor",
+        "steppeLancerLineProductionSpeed",
+        "steppeLancerLineHealth",
+        "elevationAttack",
+        "stableWorktime",
+    ],
+    ramLine: [
+        "siegeAttack",
+        "conversionDefense",
+        "siegeHealth",
+        "siegeArmor",
+        "siegeSpeed",
+        "militaryUnitsCreationSpeed",
+        "siegeWorkshopUpgradesFoodCostReduction",
+        "siegeRateOfFire",
+        "batteringRamFeudalAge",
+        "cappedRamCastleAge",
+        "allUnitsGoldCostReduction",
+        "ramLineCostReduction",
+        "elevationAttack",
+        "siegeWorkshopWorktime",
+    ],
+    catapultLine: [
+        "siegeAttack",
+        "rangedFireAttack",
+        "siegeRange",
+        "conversionDefense",
+        "siegeHealth",
+        "catapultLineRange",
+        "siegeArmor",
+        "siegeSpeed",
+        "militaryUnitsCreationSpeed",
+        "siegeWorkshopUpgradesFoodCostReduction",
+        "siegeRateOfFire",
+        "allUnitsGoldCostReduction",
+        "catapultLineCostReduction",
+        "elevationAttack",
+        "siegeWorkshopWorktime",
+        "catapultLineMinimumRange",
+    ],
+    scorpionLine: [
+        "siegeAttack",
+        "rangedFireAttack",
+        "siegeRange",
+        "conversionDefense",
+        "siegeHealth",
+        "scorpionAttack",
+        "siegeArmor",
+        "siegeSpeed",
+        "militaryUnitsCreationSpeed",
+        "siegeWorkshopUpgradesFoodCostReduction",
+        "siegeRateOfFire",
+        "allUnitsGoldCostReduction",
+        "scorpionLineCostReduction",
+        "elevationAttack",
+        "siegeWorkshopWorktime",
+        "scorpionRange",
+    ],
+    bombardCannonLine: [
+        "siegeAttack",
+        "siegeRange",
+        "conversionDefense",
+        "bombardCannonLineRange",
+        "bombardCannonLineAccuracy",
+        "siegeArmor",
+        "bombardCannonLineCostReduction",
+        "allUnitsGoldCostReduction",
+        "bombardCannonLineRateOfFire",
+        "bombardCannonLineHealth",
+        "freeChemistryUpgrade",
+        "siegeWorkshopWorktime",
+        "bombardCannonLineCreationSpeed",
+    ],
+    galleyLine: [
+        "rangedAttack",
+        "rangedFireAttack",
+        "range",
+        "accuracy",
+        "shipArmor",
+        "shipSpeed",
+        "conversionDefense",
+        "allShipsCostReduction",
+        "allShipsBuildTime",
+        "militaryUnitsCreationSpeed",
+        "dockTechnologiesCostReduction",
+        "dockWorkTime",
+        "allUnitsGoldCostReduction",
+        "allShipsHealth",
+        "galleyLineRateOfFire",
+        "freeChemistryUpgrade",
+        "warshipsCostReduction",
+        "galleyLineWoodCostReduction",
+        "galleyLineLineOfSight",
+    ],
+    fireLine: [
+        "shipArmor",
+        "shipSpeed",
+        "conversionDefense",
+        "allShipsCostReduction",
+        "allShipsBuildTime",
+        "fireShipRange",
+        "militaryUnitsCreationSpeed",
+        "fireShipRateOfFire",
+        "dockTechnologiesCostReduction",
+        "dockWorkTime",
+        "allUnitsGoldCostReduction",
+        "allShipsHealth",
+        "fireLineWoodCostReduction",
+    ],
+    demoLine: [
+        "shipArmor",
+        "shipSpeed",
+        "conversionDefense",
+        "allShipsCostReduction",
+        "allShipsBuildTime",
+        "militaryUnitsCreationSpeed",
+        "demoLineHealth",
+        "dockTechnologiesCostReduction",
+        "dockWorkTime",
+        "allUnitsGoldCostReduction",
+        "allShipsHealth",
+        "warshipsCostReduction",
+    ],
+    cannonGalleonLine: [
+        "shipArmor",
+        "shipSpeed",
+        "conversionDefense",
+        "allShipsCostReduction",
+        "allShipsBuildTime",
+        "cannonGalleonLineRange",
+        "cannonGalleonLineAccuracy",
+        "dockTechnologiesCostReduction",
+        "cannonGalleonLineCostReduction",
+        "dockWorkTime",
+        "allUnitsGoldCostReduction",
+        "allShipsHealth",
+        "cannonGalleonLineAccuracy",
+        "cannonGalleonLineRateOfFire",
+        "elevationAttack",
+        "cannonGalleonLineHealth",
+        "gunpowderTechnologiesCostReduction",
+        "freeChemistryUpgrade",
+        "warshipsCostReduction",
+        "cannonGalleonLineWoodCostReduction",
+        "cannonGalleonLineCreationSpeed",
+    ],
+    towerLine: [
+        "buildingHealth",
+        "rangedAttack",
+        "rangedFireAttack",
+        "towerDamage",
+        "antiShipAttack",
+        "range",
+        "buildingMinimumRange",
+        "accuracy",
+        "buildingArmor",
+        "conversionDefense",
+        "buildingConstructionSpeed",
+        "towerHealth",
+        "towerRange",
+        "towerRateOfFire",
+        "garrisonedInfantryFireArrows",
+        "freeTownWatch",
+        "buildingStoneCostReduction",
+        "freeGuardTowerUpgrade",
+        "freeKeepUpgrade",
+        "buildingsExceptFarmsCostReduction",
+        "villagerBuilderWorkRate",
+        "towerGarrisonCapacity",
+        "freeMurderHolesUpgrade",
+        "freeHerbalMedicineUpgrade",
+        "towerLineOfSight",
+    ],
+    stoneWallLine: [
+        "stoneWallHealth",
+        "buildingConstructionSpeed",
+        "buildingStoneCostReduction",
+        "villagerBuilderWorkRate",
+        "stoneWallCostReduction",
+    ],
+    bombardTowerLine: [
+        "buildingHealth",
+        "rangedAttack",
+        "rangedFireAttack",
+        "antiShipAttack",
+        "range",
+        "buildingMinimumRange",
+        "accuracy",
+        "buildingArmor",
+        "buildingConstructionSpeed",
+        "towerHealth",
+        "bombardTowerLineRange",
+        "bombardTowerLineAccuracy",
+        "freeTownWatch",
+        "freeBombardTowerUpgrade",
+        "villagerBuilderWorkRate",
+        "towerGarrisonCapacity",
+        "freeMurderHolesUpgrade",
+        "gunpowderTechnologiesCostReduction",
+        "freeChemistryUpgrade",
+        "towerLineOfSight",
+    ],
+    monkLine: [
+        "monkHealth",
+        "monkConversionRange",
+        "monkLineOfSight",
+        "monkSpeed",
+        "buildingConversionEnabled",
+        "siegeConversionEnabled",
+        "monksCanConvertMonks",
+        "monkFasterPowerRegeneration",
+        "advancedGroupConversion",
+        "conversionDefense",
+        "unitsDieInsteadOfConvert",
+        "monkArmor",
+        "conversionSpeed",
+        "monkReturnGoldPercent",
+        "monasteryUpgradesCostReduction",
+        "upgradesCostReduction",
+        "allUnitsGoldCostReduction",
+        "monkHealRange",
+        "monkHealRate",
+        "monasteryWorkTime",
+    ]
 }
 
 let upgradesArray = [
@@ -898,13 +1844,85 @@ let upgradesArray = [
         value: 10
     },
     {
+        entityName: "Supplies",
+        value: 10
+    },
+    {
+        entityName: "Squires",
+        value: 10
+    },
+    {
+        entityName: "Arson",
+        value: 10
+    },
+    {
         entityName: "Thumb Ring",
         value: 10
     },
     {
         entityName: "Parthian Tactics",
         value: 10
-    }
+    },
+    {
+        entityName: "Bloodlines",
+        value: 10
+    },
+    {
+        entityName: "Husbandry",
+        value: 10
+    },
+    {
+        entityName: "Careening",
+        value: 10
+    },
+    {
+        entityName: "Dry Dock",
+        value: 10
+    },
+    {
+        entityName: "Shipwright",
+        value: 10
+    },
+    {
+        entityName: "Redemption",
+        value: 10
+    },
+    {
+        entityName: "Atonement",
+        value: 10
+    },
+    {
+        entityName: "Herbal Medicine",
+        value: 10
+    },
+    {
+        entityName: "Heresy",
+        value: 10
+    },
+    {
+        entityName: "Sanctity",
+        value: 10
+    },
+    {
+        entityName: "Fervor",
+        value: 10
+    },
+    {
+        entityName: "Faith",
+        value: 10
+    },
+    {
+        entityName: "Illumination",
+        value: 10
+    },
+    {
+        entityName: "Block Printing",
+        value: 10
+    },
+    {
+        entityName: "Theocracy",
+        value: 10
+    },
 ]
 
 let uniqueFeaturesTree = {
@@ -1013,7 +2031,7 @@ let uniqueFeaturesTree = {
             townCenterWoodCostReduction: {
                 value: 10,
             },
-            footArcherRange: {
+            footArcherLineRange: {
                 value: 10,
             },
             villagerHeardablesWorkRate: {
@@ -1117,6 +2135,9 @@ let uniqueFeaturesTree = {
         },
         civBonuses: {
             buildingHealth: {
+                value: 10,
+            },
+            stoneWallHealth: {
                 value: 10,
             },
             camelRiderLineCostReduction: {
@@ -1267,7 +2288,7 @@ let uniqueFeaturesTree = {
             batteringRamFeudalAge: {
                 value: 10,
             },
-            cappedRamFeudalAge: {
+            cappedRamCastleAge: {
                 value: 10,
             },
             cavalrySpeed: {
@@ -1369,7 +2390,7 @@ let uniqueFeaturesTree = {
             },
         },
         civBonuses: {
-            infantryLineCostReduction: {
+            infantryCostReduction: {
                 value: 10,
             },
             infantryAttackAgainstBuildings: {
@@ -1760,7 +2781,7 @@ let uniqueFeaturesTree = {
                 value: 10,
                 age: 'Castle Age',
             },
-            cavalryArcherAttack: {
+            cavalryArcherLineAttack: {
                 entityName: "Recurve Bow",
                 value: 10,
                 age: 'Imperial Age',
@@ -1917,6 +2938,9 @@ let uniqueFeaturesTree = {
             lightCavalryLineHealth: {
                 value: 10,
             },
+            steppeLancerLineHealth: {
+                value: 10,
+            },
             villagerHuntingWorkRate: {
                 value: 10,
             },
@@ -1991,6 +3015,11 @@ let uniqueFeaturesTree = {
                 value: 10,
                 age: 'Imperial Age',
             },
+            bombardTowerLineAccuracy: {
+                entityName: "Arquebus",
+                value: 10,
+                age: 'Imperial Age',
+            },
             organGunAccuracy: {
                 entityName: "Arquebus",
                 value: 10,
@@ -2055,6 +3084,9 @@ let uniqueFeaturesTree = {
                 value: 10,
             },
             cavalryArcherAttackAgainstBuildings: {
+                value: 10,
+            },
+            genitourAttackAgainstBuildings: {
                 value: 10,
             },
         },
@@ -2165,6 +3197,11 @@ let uniqueFeaturesTree = {
                 value: 10,
                 age: 'Castle Age',
             },
+            steppeLancerLineLineArmor: {
+                entityName: "Silk Armor",
+                value: 10,
+                age: 'Castle Age',
+            },
             cavalryArcherArmor: {
                 entityName: "Silk Armor",
                 value: 10,
@@ -2239,9 +3276,6 @@ let uniqueFeaturesTree = {
                 value: 10,
             },
             infantryArmor: {
-                value: 10,
-            },
-            spearLineArmor: {
                 value: 10,
             },
             lightCavalryLineArmor: {

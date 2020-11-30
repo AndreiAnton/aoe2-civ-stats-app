@@ -8,12 +8,12 @@
 // const REQUESTED_BUILDING_NAME = "barracks";
 const BUILDING_NAMES = [
     // "barracks",
-    "archeryRange",
+    // "archeryRange",
     // "stable",
     // "siegeWorkshop",
     // "dock",
     // "defensiveStructures",
-    // "monastery"
+    "monastery",
     "blacksmith",
     "university"
 ];
@@ -28,7 +28,24 @@ document.getElementById('civ-attributes').innerHTML = 'Britons Attributes';
 document.getElementById('civ-attributes').innerHTML = testVar;
 
 // const civsArray = ["Aztecs", "Britons", "Persians", "Tatars", "Vietnamese", "Indians"];
-const civsArray = ["Britons", "Mayans", "Italians"];
+// const civsArray = ["Britons", "Mayans", "Italians"];
+// const civsArray = ["Britons", "Lithuanians", "Aztecs", "Vietnamese"];
+// const civsArray = ["Aztecs", "Goths", "Teutons", "Lithuanians"];
+// const civsArray = ["Aztecs", "Mayans", "Incas"];
+// const civsArray = ["Mongols", "Tatars", "Cumans", "Saracens"];
+// const civsArray = ["Spanish", "Turks", "Portuguese", "Italians"];
+// const civsArray = ["Magyars", "Mongols", "Franks", "Turks"];
+// const civsArray = ["Byzantines", "Celts", "Cumans", "Franks", "Huns", "Lithuanians", "Magyars", "Persians", "Spanish", "Teutons"];
+// const civsArray = ["Berbers", "Indians", "Saracens", "Turks"];
+// const civsArray = ["Burmese", "Khmer", "Malay", "Vietnamese"];
+// const civsArray = ["Cumans", "Celts", "Mongols"];
+// const civsArray = ["Chinese", "Celts", "Khmer"];
+// const civsArray = ["Italians", "Portuguese", "Vikings"];
+// const civsArray = ["Italians", "Portuguese", "Byzantines"];
+// const civsArray = ["Italians", "Portuguese", "Turks"];
+// const civsArray = ["Byzantines", "Teutons", "Koreans"];
+// const civsArray = ["Byzantines", "Chinese", "Mayans"];
+const civsArray = ["Aztecs", "Slavs", "Saracens", "Teutons", "Lithuanians"];
 
 // trebuie sa fac map peste civsArray
 const fullCivArray = civsArray.map(civName => buildCivsInfoObject(civName, BUILDING_NAMES));

@@ -61,3 +61,42 @@ added new props in buildCivsInfoObject like
         uniqueupgradestree: {},
         civbonusestree: {},
         civteambonusestree: {},
+
+11/30/2020
+14:53
+-- In techtree.js --
+added more units in unitsArray
+renamed for chemestry rangedAttack to rangedFireAttack
+added arrowslits civs
+added barracks technologies in upgradesTechTree
+renamed for Thumb Ring accuracy to accuracyThumbRing
+renamed for Parthian Tactics cavalryArcherAttack to cavalryArcherLineAttackAgainstSpears also added differentiator for unique units uniqueCavalryArcherAttackAgainstSpears
+added stable technologies in upgradesTechTree
+added dock technologies in upgradesTechTree
+added monastery technologies in upgradesTechTree
+added correspondig classes to infantryLine in classUpgradesObject
+added correspondig classes to spearLine in classUpgradesObject
+added correspondig classes to eagleLine in classUpgradesObject
+added correspondig classes to footArcherLine in classUpgradesObject
+added correspondig classes to skirmisherLine in classUpgradesObject
+added correspondig classes to horseArcherLine in classUpgradesObject
+added correspondig classes to gunLine in classUpgradesObject
+added correspondig classes to lightCavalryLine in classUpgradesObject
+added correspondig classes to heavyCavalryLine in classUpgradesObject
+added correspondig classes to camelRiderLine in classUpgradesObject
+added correspondig classes to battleElephantLine in classUpgradesObject
+added correspondig classes to steppeLancerLine in classUpgradesObject
+added correspondig classes to ramLine in classUpgradesObject
+added correspondig classes to catapultLine in classUpgradesObject
+added correspondig classes to scorpionLine in classUpgradesObject
+added correspondig classes to bombardCannonLine in classUpgradesObject
+added correspondig classes to galleyLine in classUpgradesObject
+added correspondig classes to fireLine in classUpgradesObject
+added correspondig classes to demoLine in classUpgradesObject
+added correspondig classes to cannonGalleonLine in classUpgradesObject
+added correspondig classes to towerLine in classUpgradesObject
+added correspondig classes to stoneWallLine in classUpgradesObject
+added correspondig classes to bombardTowerLine in classUpgradesObject
+added correspondig classes to monkLine in classUpgradesObject
+added more upgrades in upgradesArray
+modified some classes in uniqueFeaturesTree
