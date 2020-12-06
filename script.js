@@ -20,6 +20,9 @@ const civsArray = ["Aztecs", "Slavs", "Saracens", "Teutons", "Lithuanians"];
 // const civsArray = ["Aztecs"];
 // const civsArray = ["Franks"];
 
+// var that holds the currently selected civ
+let selectedCivilisationName = 'None';
+
 // return an array with objects for each civilisation, the object has a specific interface
 const fullCivArray = civsArray.map(civName => buildCivsInfoObject(civName, BUILDING_NAMES));
 
@@ -28,13 +31,45 @@ const fullCivArray = civsArray.map(civName => buildCivsInfoObject(civName, BUILD
 // return a div with the id of each civilisation, the div can have many components in the context of a civ like civ charts, civ available units, civ coeficients
 let civilisationsHtmlResponse = '';
 fullCivArray.forEach(civ => {
-    civilisationsHtmlResponse += '<div id="civ-name"><h2>' + civ.entityName + '</h2>' + renderCivChartEmptyTemplate(civ.entityName) + '<div><h3>Highest Available Units:</h3>' + renderBuildingsUnits(civ.unittree) + '</div></div>';
+    civilisationsHtmlResponse += '<div id="civ-name">';
+    civilisationsHtmlResponse += '<h2>' + civ.entityName + '</h2>';
+    civilisationsHtmlResponse += '<a class="civ-link" data-selectedciv="' + civ.entityName + '" href="civ-page/civ.html">See More</a>';
+    // civilisationsHtmlResponse += '' + renderCivChartEmptyTemplate(civ.entityName) + '';
+    // civilisationsHtmlResponse += '<div>';
+    // civilisationsHtmlResponse += '<h3>Highest Available Units:</h3>';
+    // civilisationsHtmlResponse += '' + renderBuildingsUnits(civ.unittree) + '';
+    // civilisationsHtmlResponse += '</div>';
+    civilisationsHtmlResponse += '</div>';
 })
 
 // add dynamic build HTML content to root HTML element
 document.getElementById('civs-container').innerHTML = civilisationsHtmlResponse;
 
-// populate charts with values
-fullCivArray.forEach(civ => {
-    buildCivCharts(civ.entityName)
-})
+// populate charts with values it is linked with the HTML part, when comment, comment both
+// fullCivArray.forEach(civ => {
+//     buildCivCharts(civ.entityName)
+// })
+
+//////////////////////////
+// handle the "See more" click, and set the selected Civ
+let displayedCivs = document.getElementsByClassName('civ-link')
+
+for (var i = 0; i < displayedCivs.length; i++) {
+    displayedCivs[i].addEventListener('click', function() {
+        let selectedciv = this.dataset.selectedciv
+        console.log('Option clicked: ', selectedciv);
+        setSelectedCiv(selectedciv);
+    })
+}
+function setSelectedCiv(selectedCivName) {
+    selectedCivilisationName = selectedCivName;
+    localStorage.setItem('selectedCivilisationName', selectedCivilisationName);
+}
+
+// render the civ Name in the civ.html page
+// let selectedCivilisationName = 
+// if (selectedCivilisationName === 'None') {
+    
+// } else {
+//     document.getElementById('civ-page').innerHTML = selectedCivilisationName;
+// }

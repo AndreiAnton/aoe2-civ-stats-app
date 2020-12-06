@@ -106,3 +106,7 @@ modified some classes in uniqueFeaturesTree
 added UNIT_LINE_NAMES which holds maps the unitLineNameSlug to a more user friendly version
 added function to render the charts
 added chart.js source code and stylesheet in chartjs folder
+
+22:40
+refactored the whole app
+changed techtree into smaller sub files with each tree

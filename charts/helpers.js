@@ -64,6 +64,48 @@ function buildBarChart(valuesArray, labelsArray, chartId) {
     return singleCivBarChart;
 }
 
+function buildRadarChart(valuesArray, labelsArray, chartId) {
+    let buildingChart = document.getElementById(chartId);
+    let singleCivRadarChart = new Chart(buildingChart, {
+        type: 'radar',
+        data: {
+            labels: labelsArray,
+            datasets: [{
+                label: 'Score',
+                data: valuesArray,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    })
+    
+    return singleCivRadarChart;
+}
+
 // Function that populates the charts with data
 function buildCivCharts(civName) {
     // // get selected civ object
@@ -79,5 +121,22 @@ function buildCivCharts(civName) {
 
         // build the building chart
         buildBarChart(barChartData, barChartLabels, chartId);
+    })
+}
+// Function that populates the charts with data
+function buildCivRadarCharts(civName) {
+    // // get selected civ object
+    const selectedCiv = getEntityFromArray(fullCivArray, civName);
+
+    // foreach building of that civ populate a chart
+    Object.keys(selectedCiv.coeficients).forEach(buildingName => {
+        const chartId = `${civName}-${buildingName}-radarChart`;
+        // get the civ bar chart data
+        barChartData = getBuildingChartData(selectedCiv.coeficients[buildingName]);
+        // get the civ bar chart labels
+        barChartLabels = getBuildingChartLabels(selectedCiv.coeficients[buildingName]);
+
+        // build the building chart
+        buildRadarChart(barChartData, barChartLabels, chartId);
     })
 }
